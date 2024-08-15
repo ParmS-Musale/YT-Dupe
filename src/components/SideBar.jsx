@@ -23,6 +23,7 @@ import { SiStylelint } from "react-icons/si";
 import { MdPodcasts } from "react-icons/md";
 import { BiVideo } from "react-icons/bi";
 import { GiLinkedRings } from "react-icons/gi";
+// import './index.css'; 
 function SideBar() {
   const SideBarItems = [
     {
@@ -153,7 +154,7 @@ function SideBar() {
     },
   ];
   return (
-    <div className="px-6 w-[17%] h-[calc(100vh-6.625rem)] overflow-y-scroll overflow-x-hidden mt-16 ">
+    <div className="px-6 w-[17%] h-[calc(100vh-6.625rem)] overflow-y-scroll overflow-x-hidden hide-scroll-bar">
       {/* Home */}
       <div className=" space-y-3 items-center">
         {SideBarItems.map((item) => {
