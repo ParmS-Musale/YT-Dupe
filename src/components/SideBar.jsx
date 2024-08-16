@@ -22,8 +22,7 @@ import { PiLightbulbLight } from "react-icons/pi";
 import { SiStylelint } from "react-icons/si";
 import { MdPodcasts } from "react-icons/md";
 import { BiVideo } from "react-icons/bi";
-import { GiLinkedRings } from "react-icons/gi";
-// import './index.css'; 
+
 function SideBar() {
   const SideBarItems = [
     {
@@ -238,7 +237,9 @@ function SideBar() {
         <br /> Test new features
       </span>
       <br />
-      <p className="text-xs text-gray-800 mt-3 mb-8  ">© 2024 Assembled By The Parm Dev..!!</p>
+      <p className="text-xs text-gray-800 mt-3 mb-8  ">
+        © 2024 Assembled By The Parm Dev..!!
+      </p>
     </div>
   );
 }

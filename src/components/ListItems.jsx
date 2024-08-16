@@ -1,5 +1,4 @@
 import React from "react";
-// import '../index.css'; // Import your global CSS here
 
 function ListItems() {
   const categories = [
