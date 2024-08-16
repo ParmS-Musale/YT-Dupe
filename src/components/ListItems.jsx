@@ -1,7 +1,6 @@
 import React from "react";
 // import '../index.css'; // Import your global CSS here
 
-
 function ListItems() {
   const categories = [
     "All",
@@ -24,7 +23,7 @@ function ListItems() {
     "Learn Coding",
   ];
   return (
-    <div className="flex overflow-x-scroll hide-scroll-bar px-4">
+    <div className="flex overflow-x-scroll scrollbar-none px-4">
       <div className="flex space-x-4 flex-nowrap">
         {categories.map((category) => {
           return (

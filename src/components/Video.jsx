@@ -12,7 +12,7 @@ function Video({ video }) {
       <Link to={`/video/${video.videoId}`}>
         {/* Video Thumbnail & Duration*/}
         <div className="relative flex flex-col">
-          <div className="relative h-48 md:h-56 md: rounded-xl hover:rounded-none duration-200 overflow-hidden">
+          <div className="relative h-48 md:h-56 md: rounded-xl hover:rounded-none duration-200 overflow-hidden scrollbar-none">
             <img
               className="w-full h-full object-cover"
               src={video?.thumbnails?.[0]?.url}

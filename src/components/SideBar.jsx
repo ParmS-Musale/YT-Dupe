@@ -154,9 +154,9 @@ function SideBar() {
     },
   ];
   return (
-    <div className="px-6 w-[17%] h-[calc(100vh-6.625rem)] overflow-y-scroll overflow-x-hidden hide-scroll-bar">
+    <div className="px-6 w-[17%] h-[calc(100vh-6.625rem)] overflow-y-scroll overflow-x-hidden scrollbar-thin">
       {/* Home */}
-      <div className=" space-y-3 items-center">
+      <div className=" space-y-3 items-center font-semibold">
         {SideBarItems.map((item) => {
           return (
             <div
@@ -172,7 +172,7 @@ function SideBar() {
       <br />
       <hr />
       {/* You */}
-      <div className="mt-4 space-y-3 items-center">
+      <div className="mt-4 space-y-3 items-center font-semibold">
         <div className="flex items-center space-x-2">
           <h1>You</h1>
           <FaChevronRight />
@@ -192,7 +192,7 @@ function SideBar() {
       <br />
       <hr />
       {/* Explore */}
-      <div className="mt-4 space-y-3 items-center">
+      <div className="mt-4 space-y-3 items-center font-semibold">
         <div className="items-center space-x-2">
           <h1 className=" font-semibold">Explore</h1>
         </div>
@@ -211,7 +211,7 @@ function SideBar() {
       <br />
       <hr />
       {/* More section */}
-      <div className="mt-4 space-y-3 items-center">
+      <div className="mt-4 space-y-3 items-center font-semibold">
         <div className="items-center space-x-2">
           <h1 className=" font-semibold">More From Youtube</h1>
         </div>
@@ -238,7 +238,7 @@ function SideBar() {
         <br /> Test new features
       </span>
       <br />
-      <p className="text-xs text-gray-500 mt-3">© 2024 Learn Coding</p>
+      <p className="text-xs text-gray-800 mt-3 mb-8  ">© 2024 Assembled By The Parm Dev..!!</p>
     </div>
   );
 }
