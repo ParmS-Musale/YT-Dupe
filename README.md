@@ -1,8 +1,71 @@
-# React + Vite
+# YT Dupe..!!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional YouTube clone built with React, Tailwind CSS, and RapidAPI. This project mimics the core features of YouTube, including video playback, a dynamic sidebar, and the ability to browse and search for videos.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Integration](#api-integration)
+- [Folder Structure](#folder-structure)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Features
+
+- Video playback
+- Dynamic sidebar with toggle feature
+- Responsive design using Tailwind CSS
+- Search functionality with RapidAPI
+- Display of related videos
+- Infinite scrolling for videos
+
+## Installation
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js (v14 or later)
+- npm or yarn
+
+### Setup
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/youtube-clone.git
+   cd youtube-clone
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+
+3. **Set up environment variables:**
+
+   ```bash
+   REACT_APP_RAPIDAPI_KEY=your_rapidapi_key
+
+4. **Start the development server:**
+
+   ```bash
+   npm start
+   
+## Technologies Used
+
+- React
+- Tailwind CSS
+- React Router
+- Axios for API requests
+- RapidAPI (YouTube API)
+- Moment.js (for time formatting)
+
+### License
+- This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
