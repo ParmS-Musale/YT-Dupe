@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { fetchData } from "../utils/rapidApi";
 
-import Sidebar from "./Sidebar.jsx";
+import Sidebar from "../components/SideBar.jsx";
 import SearchCard from "./SearchCard.jsx";
 
 function Search() {
