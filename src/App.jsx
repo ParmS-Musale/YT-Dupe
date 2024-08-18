@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import { useAuth } from "../context/authProvider";
+import { useAuth } from "./context/AuthProvider";
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import Search from "./components/Search";
