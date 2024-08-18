@@ -1,5 +1,5 @@
 import React from "react";
-import SideBar from "../SideBar.jsx";
+import SideBar from "../components/SideBar.jsx";
 import Video from "./Video";
 import { useAuth } from "../context/AuthProvider";
 import ListItems from "./ListItems.jsx";

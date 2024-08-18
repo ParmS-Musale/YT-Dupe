@@ -8,17 +8,23 @@ import PlayingVideo from "./components/PlayingVideo";
 import Loading from "./loader/Loading";
 
 const App = () => {
-  const {loading} = useAuth();
+  const { loading } = useAuth();
   return (
-    <div>
-      {loading && <Loading/>} 
-      <Navbar />
-      <Routes>
-        <Route path="/" exact element={<Home />} />
-        <Route path="/search/:searchQuery" element={<Search />} />
-        <Route path="/video/:id" element={<PlayingVideo />} />
-      </Routes>
-    </div>
+    <>
+
+      {loading ? <Loading /> :
+        (
+          <div>
+            <Navbar />
+            <Routes>
+              <Route path="/" exact element={<Home />} />
+              <Route path="/search/:searchQuery" element={<Search />} />
+              <Route path="/video/:id" element={<PlayingVideo />} />
+            </Routes>
+          </div>
+            )
+      } 
+        </>
   );
 };
 
