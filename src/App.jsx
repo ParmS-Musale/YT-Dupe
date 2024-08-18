@@ -1,6 +1,10 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+<<<<<<< HEAD
 import { useAuth } from "./context/AuthProvider";
+=======
+import { useAuth } from "./context/authProvider";
+>>>>>>> 24afbfbad37255189dd0c79918c1f8bb91691f41
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import Search from "./components/Search";
